@@ -1,0 +1,137 @@
+{
+	"debug": false,
+	"botsToReplaceAmmoFor" : [
+		"arenafighterevent",
+		"bossbully",
+		"bossgluhar",
+		"bosskilla",
+		"bossknight",
+		"bosskojaniy",
+		"bosssanitar",
+		"bosstagilla",
+		"bosszryachiy",
+		"exusec",
+		"followerbigpipe",
+		"followerbirdeye",
+		"followerbully",
+		"followergluharassault",
+		"followergluharsecurity",
+		"followerkojaniy",
+		"followersanitar",
+		"followerzryachiy",
+		"pmcbot",
+		"sectantpriest",
+		"sectantwarrior",
+		"bossboar",
+		"bossboarsniper",
+		"followerboar"
+	],
+
+	"ammoToUse" : {
+		"Caliber9x19PARA": {
+			"5efb0da7a29a85116f6ea05f": 1,
+			"5c925fa22e221601da359b7b": 1,
+			"ExtraAmmo_9x19_7n31M": 1,
+			"ExtraAmmo_9x19_7n30": 1,
+			"ExtraAmmo_9x19_VBR": 1
+		},
+		"Caliber1143x23ACP": {
+			"5efb0cabfb3e451d70735af5": 1
+		},
+		"Caliber762x35": {
+			"5fd20ff893a8961fc660a954": 1,
+			"ExtraAmmo_762x35_Blackfang": 1,
+			"ExtraAmmo_762x35_MAI_AP": 1
+		},
+		"Caliber9x21": {
+			"5a26ac0ec4a28200741e1e18": 1,
+			"ExtraAmmo_9x21_7n42": 1,
+			"ExtraAmmo_9x21_7BT3_01": 1
+		},
+		"Caliber556x45NATO": {
+			"601949593ae8f707c4608daa": 2,
+			"59e690b686f7746c9f75e848": 2,
+			"54527ac44bdc2d36668b4567": 1,
+			"ExtraAmmo_556x45_MAI_AP": 2,
+			"ExtraAmmo_556x45_DM31": 1
+		},
+		"Caliber762x51": {
+			"5a6086ea4f39f99cd479502f": 1,
+			"5efb0c1bd79ff02a1f5e68d9": 1,
+			"ExtraAmmo_762x51_7n43": 1,
+			"ExtraAmmo_762x51_CBJ": 1,
+			"ExtraAmmo_762x51_M80A1_EPR" : 1,
+			"ExtraAmmo_762x51_MAI_AP" : 1,
+			"noodal_762_duds": 1
+		},
+		"Caliber57x28": {
+			"5cc80f38e4a949001152b560": 1,
+			"ExtraAmmo_57x28_T6B": 1,
+			"ExtraAmmo_57x28_B2_PF": 1,
+			"ExtraAmmo_57x28_V57": 1
+		},
+		"Caliber762x39": {
+			"59e0d99486f7744a32234762": 1,
+			"601aa3d2b2bcb34913271e6d": 1,
+			"ExtraAmmo_762x39_7n23_01": 1
+		},
+		"Caliber12g": {
+			"5d6e6911a4b9361bd5780d52": 1,
+			"5d6e68a8a4b9360b6c0d54e2": 1
+		},
+		"Caliber9x39": {
+			"61962d879bb3d20b0946d385": 1,
+			"5c0d688c86f77413ae3407b2": 1
+		},
+		"Caliber9x18PM": {
+			"573719df2459775a626ccbc2": 1,
+			"ExtraAmmo_9x18pm_7N25M": 1
+		},
+		"Caliber545x39": {
+			"56dff026d2720bb8668b4567": 1,
+			"61962b617c6c7b169525f168": 1,
+			"5c0d5e4486f77478390952fe": 1,
+			"ExtraAmmo_545x39_7n24M": 1
+		},
+		"Caliber127x55": {
+			"5cadf6eeae921500134b2799": 1
+		},
+		"Caliber762x54R": {
+			"5e023d48186a883be655e551": 1,
+			"560d61e84bdc2da74d8b4571": 1,
+			"ExtraAmmo_762x54r_7n26": 1,
+			"ExtraAmmo_762x54r_MAI_AP": 1,
+			"ExtraAmmo_762x54r_7n41": 1
+		},
+		"Caliber46x30": {
+			"5ba26835d4351e0035628ff5": 1,
+			"ExtraAmmo_46x30_SFN_31_RAM": 1
+		},
+		"Caliber23x75": {
+			"5e85a9a6eacf8c039e4e2ac1": 1,
+			"ExtraAmmo_23x75_ap": 1
+		},
+		"Caliber20g": {
+			"5d6e6a42a4b9364f07165f52": 1,
+			"ExtraAmmo_20x70_slug_AP": 1,
+			"ExtraAmmo_20x70_flechette": 1
+		},
+		"Caliber9x33R": {
+			"62330b3ed4dc74626d570b95": 1,
+			"ExtraAmmo_9x33r_AP": 1,
+			"ExtraAmmo_9x33r_VBR": 1
+		},
+		"Caliber86x70": {
+			"5485a8684bdc2da71d8b4567": 1,
+			"ExtraAmmo_86x70_7n45": 1
+		},
+		"Caliber762x25TT" : {
+			"573603562459776430731618": 1,
+			"ExtraAmmo_762x25tt_P41": 1,
+			"ExtraAmmo_762x25tt_THV": 1
+
+		}
+	}
+}
+
+	
