@@ -34,7 +34,7 @@ class BUMARevamped implements IPostDBLoadMod
 					if (this.config.debug) {
 						logger.info(`[BUMA-Revamped] Ammo ${ammoId} found in the database`);
 					}
-				} else {
+				} else if (!this.config.disableWarnings) {
 					logger.error(`[BUMA-Revamped] Ammo ${ammoId} not found in the database, deleting it from the list of ammo (aka it won't appear on bots).`);
 					error = true;
 				}
