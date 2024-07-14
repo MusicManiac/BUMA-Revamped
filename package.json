@@ -3,7 +3,7 @@
     "version": "1.2.0",
     "main": "src/mod.js",
     "license": "GNU GPLv3",
-    "author": "Mattdokn",
+    "author": "MusicManiac",
     "sptVersion": "~3.9",
     "loadBefore": [],
     "loadAfter": [],
