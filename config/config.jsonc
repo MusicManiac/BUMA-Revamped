@@ -1,0 +1,122 @@
+{
+    "BotsToReplaceAmmoFor": [
+        "arenafighterevent",
+        "bosskilla",
+        "bossbully",
+        "bossboarsniper",
+        "bosssanitar",
+        "bosskojaniy",
+        "bosskillaagro",
+        "bossknight",
+        "bosstagillaagro",
+        "bosszryachiy",
+        "bosstagilla",
+		"bossgluhar",
+		"bosspartisan",
+        "bosskolontay",
+        "followerbirdeye",
+        "followerbigpipe",
+        "followerbully",
+        "followerboar",
+        "followergluhar",
+        "followerboarclose1",
+        "followerboarclose2",
+        "followergluharassault",
+        "followergluharscout",
+        "followerzryachiy",
+        "followergluharsecurity",
+        "followerkojaniy",
+        "followersanitar",
+        "followerkolontayassault",
+        "followerkolontaysecurity",
+        "sectantoni",
+        "sectantpriest",
+        "sectantpredvestnik",
+        "sectantprizrak",
+        "sectantwarrior",
+        "pmcbot",
+		"exusec"
+    ],
+	"Ammo": {
+		"Caliber9x19PARA": {
+			"5efb0da7a29a85116f6ea05f": 3, //9x19mm PBP gzh
+			"5c925fa22e221601da359b7b": 2 //9x19mm AP 6.3
+		},
+		"Caliber1143x23ACP": {
+			"5efb0cabfb3e451d70735af5": 1 //.45 ACP AP
+		},
+		"Caliber762x35": {
+			"5fd20ff893a8961fc660a954": 3, //.300 Blackout AP
+			"64b8725c4b75259c590fa899": 1 //.300 Blackout CBJ
+		},
+		"Caliber9x21": {
+			"6576f4708ca9c4381d16cd9d": 2, //9x21mm 7N42 Zubilo
+			"5a26ac0ec4a28200741e1e18": 2 //9x21mm BT gzh
+		},
+		"Caliber68x51": {
+			"6529243824cbe3c74a05e5c1": 1 //6.8x51mm SIG Hybrid
+		},
+		"Caliber556x45NATO": {
+			"601949593ae8f707c4608daa": 2, //5.56x45mm SSA AP
+			"59e690b686f7746c9f75e848": 4, //5.56x45mm M995
+			"54527ac44bdc2d36668b4567": 3, //5.56x45mm M855A1
+			"59e6906286f7746c9f75e847": 1 //5.56x45mm M856A1
+		},
+		"Caliber762x51": {
+			"5efb0c1bd79ff02a1f5e68d9": 1, //7.62x51mm M993
+			"5a6086ea4f39f99cd479502f": 2 //7.62x51mm M61	
+		},
+		"Caliber57x28": {
+			"5cc80f38e4a949001152b560": 2 //5.7x28mm SS190
+		},
+		"Caliber762x39": {
+			"601aa3d2b2bcb34913271e6d": 3, //7.62x39mm MAI AP
+			"59e0d99486f7744a32234762": 5, //7.62x39mm BP gzh
+			"64b7af434b75259c590fa893": 1 //7.62x39mm PP gzh
+		},
+		"Caliber12g": {
+			"5d6e6911a4b9361bd5780d52": 1, //12/70 flechette
+			"5d6e68a8a4b9360b6c0d54e2": 1 //12/70 AP-20 armor-piercing slug
+		},
+		"Caliber9x39": {
+			"5c0d688c86f77413ae3407b2": 1, //9x39mm BP gs
+			"61962d879bb3d20b0946d385": 2 //9x39mm PAB-9 gs
+		},
+		"Caliber9x18PM": {
+			"573719df2459775a626ccbc2": 1 //9x18mm PM PBM gzh
+		},
+		"Caliber545x39": {
+			"5c0d5e4486f77478390952fe": 2, //5.45x39mm PPBS gs Igolnik
+			"56dff026d2720bb8668b4567": 4, //5.45x39mm BS gs
+			"61962b617c6c7b169525f168": 2, //5.45x39mm 7N40
+			"56dff061d2720bb5668b4567": 1 //5.45x39mm BT gs
+		},
+		"Caliber127x55": {
+			"5cadf6eeae921500134b2799": 1 //12.7x55mm PS12B
+		},
+		"Caliber762x54R": {
+			"5e023d48186a883be655e551": 2, //7.62x54mm R BS gs
+			"560d61e84bdc2da74d8b4571": 3 //7.62x54mm R SNB gzh
+		},
+		"Caliber46x30": {
+			"5ba26835d4351e0035628ff5": 3, //4.6x30mm AP SX
+			"5ba2678ad4351e44f824b344": 1 //4.6x30mm FMJ SX
+		},
+		"Caliber23x75": {
+			"5e85a9a6eacf8c039e4e2ac1": 1 //23x75mm Shrapnel-10 buckshot		
+		},
+		"Caliber20g": {
+			"5d6e6a42a4b9364f07165f52": 1 //20/70 Poleva-6u slug
+		},
+		"Caliber9x33R": {
+			"62330b3ed4dc74626d570b95": 1 //.357 Magnum FMJ
+		},
+		"Caliber86x70": {
+			"5fc382a9d724d907e2077dab": 3, // .338 Lapua Magnum AP
+			"5fc382c1016cce60e8341b20": 1 //.338 Lapua Magnum UCW
+		},
+		"Caliber762x25TT" : {
+			"573603562459776430731618": 1 //7.62x25mm TT Pst gzh		
+		}
+    }
+}
