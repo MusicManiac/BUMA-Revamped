@@ -1,12 +1,24 @@
-﻿using SPTarkov.Server.Core.Models.Common;
 using System.Collections.Generic;
+using SPTarkov.Server.Core.Models.Common;
 
-#nullable enable
 namespace BUMA_Revamped;
 
-public class ModConfig
+public sealed class ModConfig
 {
-  public List<string> BotsToReplaceAmmoFor { get; set; } = new List<string>();
+    public bool AutoDetectAmmo { get; set; } = true;
 
-  public Dictionary<string, Dictionary<MongoId, double>> Ammo { get; set; } = new Dictionary<string, Dictionary<MongoId, double>>();
+    public int PenetrationThreshold { get; set; } = 40;
+
+    public Dictionary<int, List<double>> AutoDetectWeights { get; set; } = new()
+    {
+        [2] = [3, 7],
+        [3] = [3, 4, 3],
+        [4] = [2, 3, 3, 2],
+        [5] = [2, 2, 2, 3, 1],
+        [6] = [2, 2, 3, 1, 1, 1]
+    };
+
+    public List<string> BotsToReplaceAmmoFor { get; set; } = [];
+
+    public Dictionary<string, Dictionary<MongoId, double>> Ammo { get; set; } = [];
 }

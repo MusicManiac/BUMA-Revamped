@@ -1,4 +1,23 @@
 {
+    // true: build ammo pools from the loaded item database, including modded rounds.
+    // false: use the manual "Ammo" table below. Only existing bot calibers are changed.
+    "AutoDetectAmmo": true,
+
+    // A round qualifies only when penetration is strictly greater than this value.
+    // If a caliber has zero or one qualifying rounds, use its highest-penetration round alone.
+    "PenetrationThreshold": 40,
+
+    // Relative spawn weights, from highest to lowest penetration. The key is the
+    // number of qualifying rounds. If more than six qualify, use the strongest six.
+    // With two rounds, 3/7 means the strongest gets weight 3 and the next gets 7.
+    "AutoDetectWeights": {
+        "2": [3, 7],
+        "3": [3, 4, 3],
+        "4": [2, 3, 3, 2],
+        "5": [2, 2, 2, 3, 1],
+        "6": [2, 2, 3, 1, 1, 1]
+    },
+
     "BotsToReplaceAmmoFor": [
         "arenafighterevent",
         "bosskilla",
@@ -37,6 +56,7 @@
         "pmcbot",
 		"exusec"
     ],
+	// Used only when AutoDetectAmmo is false. Keys are caliber names, then ammo IDs.
 	"Ammo": {
 		"Caliber9x19PARA": {
 			"5efb0da7a29a85116f6ea05f": 3, //9x19mm PBP gzh

@@ -10,6 +10,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>$(SPTRuntimeDirectory)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
     <Reference Include="SPTarkov.Common">
       <HintPath>$(SPTRuntimeDirectory)\SPTarkov.Common.dll</HintPath>
       <Private>false</Private>
